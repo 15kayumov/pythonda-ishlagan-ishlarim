@@ -1,0 +1,11 @@
+sorovnoma1=int(input('1-son kiriting: '))
+sorovnoma2=int(input('2-son kiriting: '))
+sorovnoma3=int(input('3-son kiriting: '))
+sorovnoma4=int(input('4-son kiriting: '))
+def sonlar(sorovnoma1,sorovnoma2,sorovnoma3,sorovnoma4):
+    katta=max(sorovnoma1,sorovnoma2,sorovnoma3,sorovnoma4)
+    kichik=min(sorovnoma1,sorovnoma2,sorovnoma3,sorovnoma4)
+    print(f"kattasi: {katta}")
+    print(f"kichiki: {kichik}")
+    print(f"hammasi birgalikda: {kichik+katta}")
+sonlar(sorovnoma1,sorovnoma2,sorovnoma3,sorovnoma4)
